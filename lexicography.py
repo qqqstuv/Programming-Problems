@@ -1,3 +1,4 @@
+#Source: https://open.kattis.com/problems/lexicography
 import math, sys
 # Get number of permutations for a dictionary
 def getPermutationNumber(d):
