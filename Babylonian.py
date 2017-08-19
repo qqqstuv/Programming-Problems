@@ -1,4 +1,4 @@
-
+# https://open.kattis.com/problems/babylonian
 import fileinput
 
 def Babylonian(numList):
