@@ -1,2 +1,11 @@
 Sort by multiple keys:
 s = sorted(s, key = lambda x: (x[1], x[2]))
+
+
+
+
+Note:
+
+- Sliding window or keep two indices pointing to the start and end is a great way to iterate an array in linear time. This is also used in questions like “find 2 numbers in a sorted array that sum to M”.
+- When you need to compare things regardless of order (like anagram), you may consider hash, hash map.
+
