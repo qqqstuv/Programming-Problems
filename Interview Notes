@@ -1,7 +1,10 @@
 Sort by multiple keys:
 s = sorted(s, key = lambda x: (x[1], x[2]))
 
-
+XOR operator:
+x ^ 0 = x
+x ^ x = 0 // even
+x ^ x ^ x = x // odd
 
 
 Note:
