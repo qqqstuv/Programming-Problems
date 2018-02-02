@@ -53,3 +53,4 @@ string_B = "BDCABA"
 string_C = "ABBDCACB"
 print (LCS_retrieveAllString(string_C, string_C[::-1]))
 
+
