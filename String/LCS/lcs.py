@@ -50,5 +50,6 @@ def LCS_retrieveAllString(A,B):
 string_A = "ABCBDAB"
 string_B = "BDCABA"
 
-print (LCS_retrieveAllString(string_A, string_B))
+string_C = "ABBDCACB"
+print (LCS_retrieveAllString(string_C, string_C[::-1]))
 
