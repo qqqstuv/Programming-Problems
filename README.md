@@ -11,3 +11,9 @@ Tag: DP, String, Subsequence.
 
 [3Sum](https://fizzbuzzed.com/top-interview-questions-1/#twopointerm)
 Classic 3Sum problem. Use 2 pointers (actually 3) to solve. The solution is pretty straightforward. However need to check for 2 places where duplicates are not allowed
+
+
+#### May 08, 2018
+
+[Delete And Earn](https://leetcode.com/problems/delete-and-earn/description/)
+One of the easy DP problem although it seems deceptive at first. 
