@@ -21,4 +21,5 @@ One of the easy DP problem although it seems deceptive at first.
 #### May 23, 2018
 
 [Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+Given a list of ints of value of stock. You can only buy/sell once through the whole thing. Return the maximum profit.
 The optimal solution of this problem is O(n). A bit tricky.
