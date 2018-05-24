@@ -24,6 +24,9 @@ One of the easy DP problem although it seems deceptive at first.
 Given a list of ints of value of stock. You can only buy/sell once through the whole thing. Return the maximum profit.
 The optimal solution of this problem is O(n). A bit tricky.
 
-[Containter with most water] (https://leetcode.com/problems/container-with-most-water/description/)
+[Containter with most water](https://leetcode.com/problems/container-with-most-water/description/)
 An easier version of Trapping Rain Water. Can be solved with 2 pointers in linear time with constant space. Have been asked in interview before.
 Just use two pointers from left and right and move the smaller one in while updating the max water store.
+
+[CombinationSum IV](https://leetcode.com/problems/combination-sum-iv/description/)
+A variation of DP. Pretty simple and straightforward DP.
