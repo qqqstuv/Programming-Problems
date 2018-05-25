@@ -35,3 +35,6 @@ A variation of DP. Pretty simple and straightforward DP.
 
 [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
 Redid this problem. One pass.
+
+[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
+Easy problem but very tricky with indexes
