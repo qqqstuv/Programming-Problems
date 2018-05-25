@@ -30,3 +30,8 @@ Just use two pointers from left and right and move the smaller one in while upda
 
 [CombinationSum IV](https://leetcode.com/problems/combination-sum-iv/description/)
 A variation of DP. Pretty simple and straightforward DP.
+
+#### May 25, 2018
+
+[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
+Redid this problem. One pass.
