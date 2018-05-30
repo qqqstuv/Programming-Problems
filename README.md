@@ -36,6 +36,8 @@ A variation of DP. Pretty simple and straightforward DP.
 [Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
 Redid this problem. One pass.
 
+[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
+Pretty straight forward solution but a little bit tricky to implement traversal
 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 Easy problem but very tricky with indexes
 
