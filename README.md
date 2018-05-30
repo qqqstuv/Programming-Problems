@@ -38,3 +38,8 @@ Redid this problem. One pass.
 
 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 Easy problem but very tricky with indexes
+
+#### May 30, 2018
+
+[Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
+Graph search problem. There is a trick. Do mutiple bfs/dfs from the side.
