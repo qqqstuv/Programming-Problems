@@ -43,3 +43,6 @@ Easy problem but very tricky with indexes
 
 [Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
 Graph search problem. There is a trick. Do mutiple bfs/dfs from the side.
+
+[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
+Seen this before. Have to do a Post Order Traversal. There are 4 cases I need to keep track of: max(root, root + left,root. right, root + left + right). 
