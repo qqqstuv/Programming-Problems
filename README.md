@@ -49,3 +49,8 @@ Seen this before. Have to do a Post Order Traversal. There are 4 cases I need to
 
 [House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
 Pretty straight forward solution but a little bit tricky to implement traversal
+
+
+#### May 31, 2018
+
+Reviewed implementing QuickSort and MergeSort.
