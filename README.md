@@ -38,3 +38,19 @@ Redid this problem. One pass.
 
 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
 Easy problem but very tricky with indexes
+
+#### May 30, 2018
+
+[Surrounded Region](https://leetcode.com/problems/surrounded-regions/description/)
+Graph search problem. There is a trick. Do mutiple bfs/dfs from the side.
+
+[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
+Seen this before. Have to do a Post Order Traversal. There are 4 cases I need to keep track of: max(root, root + left,root. right, root + left + right). 
+
+[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
+Pretty straight forward solution but a little bit tricky to implement traversal
+
+
+#### May 31, 2018
+
+Reviewed implementing QuickSort and MergeSort.
