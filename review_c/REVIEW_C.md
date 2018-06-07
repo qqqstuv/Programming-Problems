@@ -42,8 +42,17 @@ Review:
 
 - function pointer
 
+- merge sort
+
+
 
 sizeof array, struct size at runtime? 
 Add 1 while traversing?
 Free from index?
 
+Do:
+- Fibonacci number
+- Questions on pointers, Had to multiply the string by a number and store the repeated string(result) in another string. Eg, str = "dog", result="dogdogodog".  
+- Remove a number in a LinkedList
+- Binary Search Tree
+- Network Protocol  

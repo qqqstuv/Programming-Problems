@@ -54,3 +54,6 @@ Pretty straight forward solution but a little bit tricky to implement traversal
 #### May 31, 2018
 
 Reviewed implementing QuickSort and MergeSort.
+
+#### June 7, 2018
+Review LinkedList, Palindrome in C in both recursive and iterative method

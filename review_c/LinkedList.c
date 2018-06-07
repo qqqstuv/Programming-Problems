@@ -53,6 +53,10 @@ void freeList(ListNode* head){
 }
 
 ListNode* reverse_iterative(ListNode* head){
+    if (head == NULL){
+        return NULL;
+    }
+
     ListNode* curr = head->next;
     head->next = NULL;
     ListNode* next = NULL;
@@ -65,7 +69,7 @@ ListNode* reverse_iterative(ListNode* head){
     return head;
 }
 
-ListNode* recur_revese(ListNode* curr, ListNode* prev){
+ListNode* reverse_recursive(ListNode* curr, ListNode* prev){
     if (curr == NULL){
         return prev;
     } 
@@ -74,19 +78,12 @@ ListNode* recur_revese(ListNode* curr, ListNode* prev){
     return recur_revese(next, curr);
 }
 
-ListNode* reverse_recursive(ListNode* head){
-    // ListNode* next = head->next;
-    // head->next = NULL;
-    ListNode* newHead = recur_revese(head, NULL);
-    return newHead;
-}
-
 int main(){
     ListNode* head = create();
     print(head);
     head = reverse_iterative(head);
     print(head);
-    head = reverse_recursive(head);
+    head = reverse_recursive(head, NULL);
     print(head);
     freeList(head);
     
