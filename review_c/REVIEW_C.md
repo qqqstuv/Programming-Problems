@@ -44,15 +44,34 @@ Review:
 
 - merge sort
 
+- fgets vs scanf:
+fgets is like scanf("%s", str); fgets can specify the max size of storage array for safety. Need to account for the null pointer though.
+scanf fails, why? The %d conversion specifier expects the input text to be formatted as a decimal integer. If it isn't, the conversion fails and the character that caused the conversion to fail is left in the input stream. Further calls to scanf() with the %d conversion specifier will choke on the same character.
 
+- Check if stdin buffer is empty: 
+    if (!feof(stdin)) // Check if the stdin is empty
+        // read stuff
+
+- strcpy vs strncpy vs memcpy
+    strncpy is just like strcpy but you can specify the length, if length is less than then pad the rest with null.
+     
 
 sizeof array, struct size at runtime? 
 Add 1 while traversing?
 Free from index?
 
+
+
+gcc -Wall hello.c -o hello
+
 Do:
-- Fibonacci number
+- Fibonacci number: Done
 - Questions on pointers, Had to multiply the string by a number and store the repeated string(result) in another string. Eg, str = "dog", result="dogdogodog".  
 - Remove a number in a LinkedList
 - Binary Search Tree
-- Network Protocol  
+- Bit Manipulation (check bookmark)
+- Network Protocol
+- Merging 2 sorted linked lists  
+- Implementing thread locks without using mutexes/atomic variables.
+- Review linkedList and palindrome again
+- Review strcpy stuff
