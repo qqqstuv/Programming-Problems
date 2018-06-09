@@ -54,7 +54,10 @@ scanf fails, why? The %d conversion specifier expects the input text to be forma
 
 - strcpy vs strncpy vs memcpy
     strncpy is just like strcpy but you can specify the length, if length is less than then pad the rest with null.
+    strcpy stops when it encounters a NULL, memcpy does not. You do not see the effect here, as %s in printf also stops at NULL.
+
      
+
 
 sizeof array, struct size at runtime? 
 Add 1 while traversing?
@@ -66,7 +69,7 @@ gcc -Wall hello.c -o hello
 
 Do:
 - Fibonacci number: Done
-- Questions on pointers, Had to multiply the string by a number and store the repeated string(result) in another string. Eg, str = "dog", result="dogdogodog".  
+- Questions on pointers, Had to multiply the string by a number and store the repeated string(result) in another string. Eg, str = "dog", result="dogdogodog".  Done
 - Remove a number in a LinkedList
 - Binary Search Tree
 - Bit Manipulation (check bookmark)
