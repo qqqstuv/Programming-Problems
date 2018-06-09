@@ -70,7 +70,7 @@ gcc -Wall hello.c -o hello
 Do:
 - Fibonacci number: Done
 - Questions on pointers, Had to multiply the string by a number and store the repeated string(result) in another string. Eg, str = "dog", result="dogdogodog".  Done
-- Remove a number in a LinkedList
+- Remove a number in a LinkedList. Done
 - Binary Search Tree
 - Bit Manipulation (check bookmark)
 - Network Protocol
