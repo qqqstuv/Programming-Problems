@@ -74,7 +74,7 @@ Do:
 - Binary Search Tree. Done
 - Bit Manipulation (check bookmark)
 - Network Protocol
-- Merging 2 sorted linked lists  
+- Merging 2 sorted linked lists. Done 
 - Implementing thread locks without using mutexes/atomic variables.
 - Review linkedList and palindrome again
 - Review strcpy stuff
