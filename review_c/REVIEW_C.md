@@ -71,7 +71,7 @@ Do:
 - Fibonacci number: Done
 - Questions on pointers, Had to multiply the string by a number and store the repeated string(result) in another string. Eg, str = "dog", result="dogdogodog".  Done
 - Remove a number in a LinkedList. Done
-- Binary Search Tree
+- Binary Search Tree. Done
 - Bit Manipulation (check bookmark)
 - Network Protocol
 - Merging 2 sorted linked lists  
