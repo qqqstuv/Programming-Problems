@@ -5,8 +5,12 @@
 
 
 int missing_number(int* a, int start,  int end, int length){
+	if(length == 1){
+		return a[0] == 1 ? 2 : 1;
+	}
 	int mid = (start + end) / 2;
-	if(start == 0 && end == 0){
+	printf("%d %d \n", start, end);
+	if(start == 0 && end <= 0){
 		return a[0] - 1;
 	}
 	if (a[mid] == mid + 1){ // thing on the right
@@ -26,11 +30,8 @@ int missing_number(int* a, int start,  int end, int length){
 }
 
 int main(){
-	int a[][4] = {   {1,2,4,5},
-			{2,3,4,5},
-			{1,2,3,4},
-			{1,3,4,5},
-			{1,2,3,5}};
+	int a[][2] = {   {1},
+			{2}};
 	int len = sizeof(a) / sizeof(a[0]);
 	for(int i = 0; i < len; i++){
 		int eachLength =  sizeof(a[0]) / sizeof(a[0][0]);

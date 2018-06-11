@@ -4,6 +4,6 @@
 
 int main(){
 	char* a = "hello";
-	a[0] = 'e';
+	printf(a);
 	return 1;
 }
