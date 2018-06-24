@@ -76,5 +76,6 @@ Do:
 - Network Protocol
 - Merging 2 sorted linked lists. Done 
 - Implementing thread locks without using mutexes/atomic variables.
-- Review linkedList and palindrome again
+- Review linkedList and palindrome again. Done
 - Review strcpy stuff
+- next largest element from the current node in the BST

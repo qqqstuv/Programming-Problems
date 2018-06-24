@@ -30,6 +30,23 @@ Node* reverse(Node* head){
 	return prev;
 }
 
+int isPalindrome(Node* right ,Node** left){
+	if(right != NULL){
+		if (isPalindrome(right->next, left)){
+			if(right->val == (*left)->val){
+				*left = (*left)->next;
+				return 1;
+			}else{
+				return 0;
+			}
+		}else{
+			return 0;
+		}
+	}
+	return 1;
+}
+
+
 void add(Node** node, int val){
 	if(*node == NULL){
 		*node = init(val);
@@ -57,11 +74,9 @@ void print(Node* head){
 int main(){
 	Node* head = NULL;
 	add(&head, 2);
-	add(&head, 3);
-	add(&head, 4);
-	add(&head, 1);
 	print(head);
 	head = reverse(head);
 	print(head);
+	printf("Is palindrome: %d\n",isPalindrome(head,&head));
 	return 1;
 }
