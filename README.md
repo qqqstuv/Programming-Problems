@@ -57,3 +57,10 @@ Reviewed implementing QuickSort and MergeSort.
 
 #### June 7, 2018
 Review LinkedList, Palindrome in C in both recursive and iterative method
+
+#### June 27, 2018
+[Split array into consecutive subquence](https://leetcode.com/problems/split-array-into-consecutive-subsequences/description/)
+Pretty interesting problem. Could be done in O(n^2) or O(n)
+
+[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/)
+Traverse and append to a list in vertical order. Can be solved with in order BFS, or something better!
