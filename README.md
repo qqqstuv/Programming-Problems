@@ -64,3 +64,23 @@ Pretty interesting problem. Could be done in O(n^2) or O(n)
 
 [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/description/)
 Traverse and append to a list in vertical order. Can be solved with in order BFS, or something better!
+
+#### June 28, 2018
+[Number of subarray with bounded maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/)
+Interesting problem. Brute force is DP O(n^2  * logn) but there can be O(n) O(n) solution.
+Snippet Code to calculate the index(start, end) of adjacent similar values.
+`
+A = [False, False, True, False, True, True, True, False, True]
+ans = []
+idx = 0
+while idx < len(A):
+    count = 0
+    while idx < len(A) and A[idx] :
+        count += 1
+        idx += 1
+    if count > 0:
+        ans.append([idx - count, idx])
+    else:
+        idx += 1
+print(ans)
+`
