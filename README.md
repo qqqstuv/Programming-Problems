@@ -69,7 +69,7 @@ Traverse and append to a list in vertical order. Can be solved with in order BFS
 [Number of subarray with bounded maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/)
 Interesting problem. Brute force is DP O(n^2  * logn) but there can be O(n) O(n) solution.
 Snippet Code to calculate the index(start, end) of adjacent similar values.
-`
+```
 A = [False, False, True, False, True, True, True, False, True]
 ans = []
 idx = 0
@@ -83,4 +83,4 @@ while idx < len(A):
     else:
         idx += 1
 print(ans)
-`
+```
