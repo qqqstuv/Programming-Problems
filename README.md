@@ -90,4 +90,8 @@ print(ans)
 Pretty straight forward graph problem. Can be done in O(n) by implementing a simple finding circle in graph algorithm
 
 [Find all duplicates in array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
-Very tricky problem. Solution is not bitshifting but playing around with array.
+Very tricky problem. Solution is not bitshifting but playing around with array from 1 to n
+
+[Partition Label](https://leetcode.com/problems/partition-labels/description/)
+Can be solved by DP O(n^2) brute force way but can also be done in  O(n), O(n). Think differently.
+
