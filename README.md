@@ -84,3 +84,9 @@ while idx < len(A):
         idx += 1
 print(ans)
 ```
+
+[Find Eventual Safe Place](https://leetcode.com/problems/find-eventual-safe-states/description/)
+Pretty straight forward graph problem. Can be done in O(n) by implementing a simple finding circle in graph algorithm
+
+[Find all duplicates in array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
+Very tricky problem. Solution is not bitshifting.
