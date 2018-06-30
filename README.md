@@ -95,3 +95,28 @@ Very tricky problem. Solution is not bitshifting but playing around with array f
 [Partition Label](https://leetcode.com/problems/partition-labels/description/)
 Can be solved by DP O(n^2) brute force way but can also be done in  O(n), O(n). Think differently.
 
+#### June 29, 2018
+
+How to check if a singly linkedList is palindromic using recursion with 1 traversal and constant space:
+
+```
+bool recursiveCheck(ListNode* right, ListNode** left){
+	if (right != NULL){
+		if (recursiveCheck(right->next, left)){
+			if (right->val == (*left)->val){
+				(*left) = (*left)->next;
+				return true; 	
+			}else{
+				return false;
+			}	
+		}else{
+			return false;
+		}
+	}
+	return true;
+}
+bool isRecursive(ListNode* head){
+	ListNode* node = head;
+	return recursiveCheck(head, &node);
+}
+``` 
