@@ -1,6 +1,3 @@
-
-
-
 char* str = "hello"; // "hello" is immutable so cannot access the index and change the value of hello
 sizeof(str) gives the size of the pointer, which is either 4 or 8
 
