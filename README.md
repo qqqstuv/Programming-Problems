@@ -120,3 +120,8 @@ bool isRecursive(ListNode* head){
 	return recursiveCheck(head, &node);
 }
 ``` 
+
+#### July 2, 2018
+
+[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)
+Can do stack or can do with regex. Good medium problem
