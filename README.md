@@ -125,3 +125,7 @@ bool isRecursive(ListNode* head){
 
 [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)
 Can do stack or can do with regex. Good medium problem
+
+#### July 3, 2018
+[Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/description/)
+Classic DP problem with lots of optimization. I came up with a non-DP solution with a little bit better space.
