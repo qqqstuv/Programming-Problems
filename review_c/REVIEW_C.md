@@ -50,11 +50,18 @@ scanf fails, why? The %d conversion specifier expects the input text to be forma
         // read stuff
 
 - strcpy vs strncpy vs memcpy
-    strncpy is just like strcpy but you can specify the length, if length is less than then pad the rest with null.
-    strcpy stops when it encounters a NULL, memcpy does not. You do not see the effect here, as %s in printf also stops at NULL.
+    strncpy is just like strcpy but you can specify the length, if length is less than destination then pad the rest with null.
+    strcpy stops when it encounters a '\0' and it copies the '\0' inclusively; memcpy does not. You do not see the effect here, as %s in printf also stops at NULL.
+    
+    Read: http://man7.org/linux/man-pages/man3/strcpy.3.html
 
-     
-
+    memcpy example:
+    const char src[50] = "http://www.tutorialspoint.com";
+    char dest[50];
+    strcpy(dest,"Heloooo!!");
+    printf("Before memcpy dest = %s\n", dest);
+    memcpy(dest, src, strlen(src)+1);
+    printf("After memcpy dest = %s\n", dest);
 
 sizeof array, struct size at runtime? 
 Add 1 while traversing?
