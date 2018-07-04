@@ -129,3 +129,6 @@ Can do stack or can do with regex. Good medium problem
 #### July 3, 2018
 [Distinct Subsequence](https://leetcode.com/problems/distinct-subsequences/description/)
 Classic DP problem with lots of optimization. I came up with a non-DP solution with a little bit better space.
+
+[Palindromic Substring](https://leetcode.com/problems/palindromic-substrings/description/)
+Could be done in O(n^3),O(n^2), O(n)[Review Manacher's algorithm](https://www.youtube.com/watch?time_continue=894&v=nbTSfrEfo6M)
