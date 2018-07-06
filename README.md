@@ -142,11 +142,16 @@ More like a review but there's a catch when implementing.
 Adhoc problem. Pretty good problem to solve.
 
 [Longest mountain in array](https://leetcode.com/problems/longest-mountain-in-array/description/)
+Tricky to implement right. A lot of edge cases
+
+[Most profit in assigning work](https://leetcode.com/problems/most-profit-assigning-work/description/)
 [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 These 2 problems are related to the technic of sorting 2 synchronized lists. Really good technic to know.
-The point of this technic is to sort one list and try to sort the other list in ascending order according to the nature of the problem
-
+The point of is to sort one list and try to sort the other list in ascending order according to the nature of the problem
 
 #### July 6, 2018
 [Binary Tree with factors](https://leetcode.com/problems/binary-trees-with-factors/description/)
 Tricky to write the code right. Interesting to think about the approach. Good question for interview. Make sure to % the answer.
+
+[Count of smaller number after i](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)
+Problem isn't hard. Can be done in O(nlogn). Review Binary Search Tree, Binary Indexed Tree and Segment Tree.
