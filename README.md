@@ -136,3 +136,17 @@ Could be done in O(n^3),O(n^2), O(n)[Review Manacher's algorithm](https://www.yo
 #### July 4, 2018
 [Combination Sum](https://leetcode.com/problems/combination-sum/description/)
 More like a review but there's a catch when implementing.
+
+#### July 5, 2018
+[Score after flipping matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/)
+Adhoc problem. Pretty good problem to solve.
+
+[Longest mountain in array](https://leetcode.com/problems/longest-mountain-in-array/description/)
+[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)
+These 2 problems are related to the technic of sorting 2 synchronized lists. Really good technic to know.
+The point of this technic is to sort one list and try to sort the other list in ascending order according to the nature of the problem
+
+
+#### July 6, 2018
+[Binary Tree with factors](https://leetcode.com/problems/binary-trees-with-factors/description/)
+Tricky to write the code right. Interesting to think about the approach. Good question for interview. Make sure to % the answer.
