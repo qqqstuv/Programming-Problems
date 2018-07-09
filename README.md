@@ -159,3 +159,9 @@ Problem isn't hard. Can be done in O(nlogn). Review Binary Search Tree, Binary I
 
 [Super Washing Machine](https://leetcode.com/problems/super-washing-machines/description/)
 I still dont understand how I solved it...
+
+#### July 8, 2018
+[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/solution/)
+
+[Bus Routes](https://leetcode.com/problems/bus-routes/description/)
+Interesting problem. Should probably solve it again. Use graph but do it in a smart way to reduce runtime
