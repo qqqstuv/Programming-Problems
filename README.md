@@ -173,3 +173,6 @@ Review Union Find
 ### July 10, 2018
 [Similar String Group](https://leetcode.com/problems/similar-string-groups/description/)
 Review Trie
+
+[Making a Large Island](https://leetcode.com/problems/making-a-large-island/description/)
+An extension problem from [Number of islands](https://leetcode.com/problems/number-of-islands/description/)
