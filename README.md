@@ -165,3 +165,7 @@ I still dont understand how I solved it...
 
 [Bus Routes](https://leetcode.com/problems/bus-routes/description/)
 Interesting problem. Should probably solve it again. Use graph but do it in a smart way to reduce runtime
+
+#### July 9, 2018
+[Friend Circles](https://leetcode.com/problems/friend-circles/description/)
+Review Union Find
