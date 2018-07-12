@@ -176,3 +176,9 @@ Review Trie
 
 [Making a Large Island](https://leetcode.com/problems/making-a-large-island/description/)
 An extension problem from [Number of islands](https://leetcode.com/problems/number-of-islands/description/)
+
+[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)
+Greedy. Review.
+
+[Maximum Swap](https://leetcode.com/problems/maximum-swap/description/)
+Ad hoc question. Number question
