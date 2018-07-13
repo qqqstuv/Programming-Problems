@@ -189,3 +189,8 @@ Ad hoc question. Number question
 #### July 11, 2018
 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 A bit of review on set.
+
+#### July 12, 2018
+[SubTree of another tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
+[Find duplicate subtree](https://leetcode.com/problems/find-duplicate-subtrees/description/)
+Interesting problem. Use Merkle Hashing algorithm to hash unique paths in binary tree.
