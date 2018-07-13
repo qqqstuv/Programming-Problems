@@ -170,7 +170,7 @@ Interesting problem. Should probably solve it again. Use graph but do it in a sm
 [Friend Circles](https://leetcode.com/problems/friend-circles/description/)
 Review Union Find
 
-### July 10, 2018
+#### July 10, 2018
 [Similar String Group](https://leetcode.com/problems/similar-string-groups/description/)
 Review Trie
 
@@ -182,3 +182,10 @@ Greedy. Review.
 
 [Maximum Swap](https://leetcode.com/problems/maximum-swap/description/)
 Ad hoc question. Number question
+
+## Scheduling Problem Review:
+[My Calendar I](https://leetcode.com/problems/my-calendar-i/)
+
+#### July 11, 2018
+[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+A bit of review on set.
