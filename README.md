@@ -194,3 +194,8 @@ A bit of review on set.
 [SubTree of another tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
 [Find duplicate subtree](https://leetcode.com/problems/find-duplicate-subtrees/description/)
 Interesting problem. Use Merkle Hashing algorithm to hash unique paths in binary tree.
+
+
+#### July 13,2018
+[Count Complete Tree Node](https://leetcode.com/problems/count-complete-tree-nodes/description/)
+Interesting binary tree problem. log(n)*log(n)
