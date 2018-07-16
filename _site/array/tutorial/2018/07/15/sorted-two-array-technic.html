@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Synchronized Sorting two list problem</title>
 	
 	<meta name="author" content="Duke Nguyen">
 
@@ -149,55 +149,30 @@
 
 	<div class="col-sm-9 col-sm-offset-3">
 		<div class="page-header">
-  <h1> </h1>
+  <h1>Synchronized Sorting two list problem </h1>
 </div>
+	
+<article>
 
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   July 
+	   15th,
+	   
+	   2018
+	 </span>
+	  <div class="article_body">
+	  <h3 id="whenever-you-need-to-do-searching-in-two-synchronized-list-maybe-think-of-using-this-technic">whenever you need to do searching in two synchronized list, maybe think of using this technic</h3>
 
+<p>Example of problems:
+<a href="https://leetcode.com/problems/most-profit-assigning-work/description/">Most profit in assigning work</a>,
+<a href="https://leetcode.com/problems/longest-increasing-subsequence/description/">Longest Increasing Subsequence </a></p>
 
-<article class="home">
+<p>Looking at Most Profit in Assigning Work: for each worker, we would like to find out (search) all the difficulty that the worker can handle but at the same time we would like to choose (search) for the most profit that worker can achieve.
+The tricky part is if we sort the difficulty then searching in difficulty takes log(n) but searching for most profit takes O(n). At the same time if we sort profit, searching for difficulty takes O(n). Overall the brute force time would be O(n^2)</p>
 
-  <span class="post-date">
-    
-    July
-    15th,
-    
-    2018
-  </span>
-
-  <h2>
-    <a href="/array/tutorial/2018/07/15/sorted-two-array-technic.html">Synchronized Sorting two list problem</a>
-  </h2>
-
-  <div>
-    
-    
-    <h3 id="whenever-you-need-to-do-searching-in-two-synchronized-list-maybe-think-of-using-this-technic">whenever you need to do searching in two synchronized list, maybe think of using this technic</h3>
-
-
-    
-    
-  </div>
-
-</article>
-
-
-<article class="home">
-
-  <span class="post-date">
-    
-    July
-    14th,
-    
-    2018
-  </span>
-
-  <h2>
-    <a href="/general/setup/demo/2018/07/14/first-post.html">First Post!</a>
-  </h2>
-
-  <div>
-    
-    <h5 id="welcome-to-my-algorithm-problem-archive-where-i-not-only-solve-algorithm-problem-mostly-from-leetcode-but-also-try-to-categorize-them-and-write-instructional-solutions-for-quick-review-in-the-future-feel-free-to-suggest-me-new-problems-and-add-similar-solutions">Welcome to my algorithm problem archive where I not only solve algorithm problem (mostly from leetcode) but also try to categorize them and write instructional solutions for quick review in the future. Feel free to suggest me new problems and add similar solutions.</h5>
+<p>The sorting technic comes into play when we keep one list (difficulty) sorted and try to convert the other list into a sorted array to reduce search time to O(log(n))</p>
 
 <!-- **dbyll** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
 
@@ -207,118 +182,109 @@
 
 <a class="btn btn-default" href="https://github.com/dbtek/dbyll">Grab your copy now!</a> -->
 
-    
-  </div>
+	  </div>
 
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#array-ref">
+					array <span>(1)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#tutorial-ref">
+					tutorial <span>(1)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		
+		<ul class="list-inline">
+		  <li><i class="fa fa-tags"></i></li>
+		  
+		  
+			 
+				<li>
+					<a href="/tags.html#array-ref">
+					array <span>(1)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#sorted-ref">
+					sorted <span>(1)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#binarysearch-ref">
+					binarysearch <span>(1)</span>
+					
+					</a>
+				</li>
+			
+		  
+		  
+		</ul>
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Synchronized Sorting two list problem&via=dukeeeng"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="//www.gravatar.com/avatar/" class="img-rounded author-image" />
+        <h4 class="section-title author-name">Duke Nguyen</h4>
+        <p class="author-bio">Software Developer</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/general/setup/demo/2018/07/14/first-post.html" title="First Post!">&larr; Previous</a></li>
+		  
+		  
+			<li class="next disabled"><a>Next &rarr;</a>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
 </article>
+<div class="clearfix"></div>
 
-
-<article class="home">
-
-  <span class="post-date">
-    
-    November
-    15th,
-    
-    2013
-  </span>
-
-  <h2>
-    <a href="/general/setup/demo/2013/11/15/configuration.html">Configuration</a>
-  </h2>
-
-  <div>
-    
-    <p>In your config file change these settings</p>
-
-<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">title</span><span class="pi">:</span> <span class="s">dbyll</span>
-<span class="na">author</span><span class="pi">:</span>  
-  <span class="na">name</span><span class="pi">:</span> <span class="s">yourname</span>  
-  <span class="na">email</span><span class="pi">:</span> <span class="s">youremail</span>  
-  <span class="na">github</span><span class="pi">:</span> <span class="s">asd123</span>  
-  <span class="na">twitter</span><span class="pi">:</span> <span class="s">asd123</span>  
-  <span class="na">pinterest</span><span class="pi">:</span> <span class="s">asd123</span>  
-  <span class="na">linkedin</span><span class="pi">:</span> <span class="s">asd123</span>  
-  <span class="na">resume</span><span class="pi">:</span> <span class="s">asd123</span>  
-  <span class="na">bio</span><span class="pi">:</span> <span class="s">Your stylish,  minimalist theme!</span>  
-  <span class="na">email_md5</span><span class="pi">:</span> <span class="s">md5ofemail</span>  </code></pre></figure>
-
-    
-  </div>
-
-</article>
-
-
-<article class="home">
-
-  <span class="post-date">
-    
-    November
-    14th,
-    
-    2013
-  </span>
-
-  <h2>
-    <a href="/general/demo/2013/11/14/sample.html">Sample</a>
-  </h2>
-
-  <div>
-    
-    
-    Sample placeholder post.
-    
-    
-  </div>
-
-</article>
-
-
-<article class="home">
-
-  <span class="post-date">
-    
-    November
-    14th,
-    
-    2013
-  </span>
-
-  <h2>
-    <a href="/general/demo/sample/2013/11/14/sample-2.html">Sample 2</a>
-  </h2>
-
-  <div>
-    
-    
-    Sample placeholder post.
-    
-    
-  </div>
-
-</article>
-
-<hr/>
-
-<ul class="pager"> 
-
-  
-  <li class="previous disabled">
-    <a>&larr; Newer</a>
-  </li>
-  
-  
-  <li>
-    <span class="page_number">Page: 1 of 1</span>
-  </li>
-
-  
-  <li class="next disabled">
-    <a>Older &rarr;</a>        
-  </li>
-  
-
-</ul>
 
 
 

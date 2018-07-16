@@ -7,6 +7,32 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Synchronized Sorting two list problem</title>
+				<description>&lt;h3 id=&quot;whenever-you-need-to-do-searching-in-two-synchronized-list-maybe-think-of-using-this-technic&quot;&gt;whenever you need to do searching in two synchronized list, maybe think of using this technic&lt;/h3&gt;
+
+&lt;p&gt;Example of problems:
+&lt;a href=&quot;https://leetcode.com/problems/most-profit-assigning-work/description/&quot;&gt;Most profit in assigning work&lt;/a&gt;,
+&lt;a href=&quot;https://leetcode.com/problems/longest-increasing-subsequence/description/&quot;&gt;Longest Increasing Subsequence &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking at Most Profit in Assigning Work: for each worker, we would like to find out (search) all the difficulty that the worker can handle but at the same time we would like to choose (search) for the most profit that worker can achieve.
+The tricky part is if we sort the difficulty then searching in difficulty takes log(n) but searching for most profit takes O(n). At the same time if we sort profit, searching for difficulty takes O(n). Overall the brute force time would be O(n^2)&lt;/p&gt;
+
+&lt;p&gt;The sorting technic comes into play when we keep one list (difficulty) sorted and try to convert the other list into a sorted array to reduce search time to O(log(n))&lt;/p&gt;
+
+&lt;!-- **dbyll** is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.  
+
+**dbyll** is brought to you by **[dbtek](http://ismaildemirbilek.com)**. Open sourced under [MIT](http://opensource.org/licenses/MIT) license. --&gt;
+
+&lt;!-- ### dbyll is on GitHub
+
+&lt;a class=&quot;btn btn-default&quot; href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Grab your copy now!&lt;/a&gt; --&gt;
+</description>
+				<pubDate>Sun, 15 Jul 2018 00:00:00 -0700</pubDate>
+				<link>/array/tutorial/2018/07/15/sorted-two-array-technic.html</link>
+				<guid isPermaLink="true">/array/tutorial/2018/07/15/sorted-two-array-technic.html</guid>
+			</item>
+		
+			<item>
 				<title>First Post!</title>
 				<description>&lt;h5 id=&quot;welcome-to-my-algorithm-problem-archive-where-i-not-only-solve-algorithm-problem-mostly-from-leetcode-but-also-try-to-categorize-them-and-write-instructional-solutions-for-quick-review-in-the-future-feel-free-to-suggest-me-new-problems-and-add-similar-solutions&quot;&gt;Welcome to my algorithm problem archive where I not only solve algorithm problem (mostly from leetcode) but also try to categorize them and write instructional solutions for quick review in the future. Feel free to suggest me new problems and add similar solutions.&lt;/h5&gt;
 
