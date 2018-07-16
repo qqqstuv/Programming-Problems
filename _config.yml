@@ -5,8 +5,8 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
+disqus: 
+google_analytics: 
 title: Duke Nguyen
 
 defaults:
@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: 
 
 description: Stylish Jekyll Theme
 author:
@@ -25,7 +25,7 @@ author:
   pinterest: 
   linkedin: dukeng
   bio: Software Developer
-  email_md5: 726351295ec82e145928582f595aa3aa
+  email_md5: 
 
 rss_path: feed.xml
 categories_path: categories.html
