@@ -199,3 +199,7 @@ Interesting problem. Use Merkle Hashing algorithm to hash unique paths in binary
 #### July 13,2018
 [Count Complete Tree Node](https://leetcode.com/problems/count-complete-tree-nodes/description/)
 Interesting binary tree problem. log(n)*log(n)
+
+#### July 30, 2018
+[Max Point On a Line](https://leetcode.com/problems/max-points-on-a-line/description/)
+Ad hoc problem. Not too hard but interesting.
